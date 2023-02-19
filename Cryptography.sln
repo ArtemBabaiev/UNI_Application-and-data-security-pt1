@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab2", "Lab2", "{998190FD-1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AffineCipher", "AffineCipher\AffineCipher.csproj", "{A44EE01D-66AF-4220-9BBB-7E52564F5277}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary", "ClassLibrary\ClassLibrary.csproj", "{74EDE449-EEEE-48A9-8911-D86968962CA1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{A44EE01D-66AF-4220-9BBB-7E52564F5277}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A44EE01D-66AF-4220-9BBB-7E52564F5277}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A44EE01D-66AF-4220-9BBB-7E52564F5277}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74EDE449-EEEE-48A9-8911-D86968962CA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74EDE449-EEEE-48A9-8911-D86968962CA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74EDE449-EEEE-48A9-8911-D86968962CA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74EDE449-EEEE-48A9-8911-D86968962CA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
