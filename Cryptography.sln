@@ -9,9 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CesarCipher", "CesarCipher\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab2", "Lab2", "{998190FD-15F2-4008-9AE8-8D16635FD2AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AffineCipher", "AffineCipher\AffineCipher.csproj", "{A44EE01D-66AF-4220-9BBB-7E52564F5277}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AffineCipher", "AffineCipher\AffineCipher.csproj", "{A44EE01D-66AF-4220-9BBB-7E52564F5277}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary", "ClassLibrary\ClassLibrary.csproj", "{74EDE449-EEEE-48A9-8911-D86968962CA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibrary", "ClassLibrary\ClassLibrary.csproj", "{74EDE449-EEEE-48A9-8911-D86968962CA1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab3", "Lab3", "{D80DC506-5224-497A-A74E-7898C484FA6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GammaCipher", "GammaCipher\GammaCipher.csproj", "{862FE15A-467E-42B0-BCE1-A27EF02B85FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +35,10 @@ Global
 		{74EDE449-EEEE-48A9-8911-D86968962CA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74EDE449-EEEE-48A9-8911-D86968962CA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74EDE449-EEEE-48A9-8911-D86968962CA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{862FE15A-467E-42B0-BCE1-A27EF02B85FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{862FE15A-467E-42B0-BCE1-A27EF02B85FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{862FE15A-467E-42B0-BCE1-A27EF02B85FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{862FE15A-467E-42B0-BCE1-A27EF02B85FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,6 +46,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{C7FD3CA4-811F-464C-9031-E3C17A115DD7} = {4BA11815-62CC-4044-BCF2-5FD3499D06C9}
 		{A44EE01D-66AF-4220-9BBB-7E52564F5277} = {998190FD-15F2-4008-9AE8-8D16635FD2AF}
+		{862FE15A-467E-42B0-BCE1-A27EF02B85FD} = {D80DC506-5224-497A-A74E-7898C484FA6D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {20310889-253B-4A7F-A13F-60157D33BF55}
