@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ClassLibrary;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,7 +13,7 @@ namespace AffineCipher
         {
             int a = key.Item1;
             int b = key.Item2;
-            string alphabet = Values.ALPHABET;
+            string alphabet = FileManager.ReadAplhabet();
             int m = alphabet.Length;
             if (a <= 0 || a >= m || b <= 0 || b >= m)
             {
