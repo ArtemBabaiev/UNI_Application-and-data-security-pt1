@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace AffineCipher
+﻿namespace ClassLibrary
 {
     public static class MathFunctions
     {
@@ -30,7 +24,7 @@ namespace AffineCipher
         public static int ModInverse(int A, int M)
         {
             for (int X = 1; X < M; X++)
-                if (((A % M) * (X % M)) % M == 1)
+                if (A % M * (X % M) % M == 1)
                     return X;
             return 1;
         }

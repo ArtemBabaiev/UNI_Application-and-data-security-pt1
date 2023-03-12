@@ -1,36 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ClassLibrary
+﻿namespace ClassLibrary
 {
     public static class FileManager
     {
-        public static string ReadAplhabet()
+        public static string ReadTextFrom(string path)
         {
-            return File.ReadAllText(@"res\alphabet.txt");
+            return File.ReadAllText(path);
         }
 
-        public static string ReadEncrypted()
+        public static void WriteTextTo(string path, string text)
         {
-            return File.ReadAllText(@"res\encrypted.txt");
-        }
-
-        public static string ReadSentence()
-        {
-            return File.ReadAllText(@"res\sentence.txt");
-        }
-
-        public static void WriteEncrypted(string encryptedSentence)
-        {
-            File.WriteAllText(@"res\encrypted.txt", encryptedSentence);
+            File.WriteAllText(path, text);
         }
 
         public static Dictionary<char, double> ReadFrequency()
         {
-            string[] strings = File.ReadAllLines(@"res\frequency.txt");
+            string[] strings = File.ReadAllLines(PathConst.FREQUENCY_PATH);
             Dictionary<char, double> count = new Dictionary<char, double>();
             foreach (var dataString in strings)
             {
@@ -41,5 +25,30 @@ namespace ClassLibrary
 
             return count;
         }
+
+        #region Legacy Functions
+        public static string ReadAplhabet()
+        {
+            return ReadTextFrom(PathConst.ALPABET_PATH);
+        }
+
+        public static string ReadEncrypted()
+        {
+            return ReadTextFrom(PathConst.ENCRYPTED_PATH);
+        }
+
+        public static string ReadSentence()
+        {
+            return ReadTextFrom(PathConst.TEXT_PATH);
+        }
+
+        public static void WriteEncrypted(string encryptedSentence)
+        {
+            WriteTextTo(PathConst.ENCRYPTED_PATH, encryptedSentence);
+        }
+        #endregion
+
+
+
     }
 }
