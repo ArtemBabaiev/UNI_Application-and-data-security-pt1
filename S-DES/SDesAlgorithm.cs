@@ -8,12 +8,12 @@ using System.Threading.Tasks;
 
 namespace S_DES
 {
-    enum DesProcess
+    public enum DesProcess
     {
         Ecryption, Decryption
     }
 
-    internal class SDesAlgorithm
+    public class SDesAlgorithm
     {
         int[] P10 = { 3, 5, 2, 7, 4, 10, 1, 9, 8, 6 };
         int[] P8 = { 6, 3, 7, 4, 8, 5, 10, 9 };
@@ -31,6 +31,9 @@ namespace S_DES
                       { 2, 1, 0, 3 } };
 
         int[] key;
+
+        public int[] Key { get => key; set => key = value; }
+        public int[,] S01 { get => S0; set => S0 = value; }
 
         public SDesAlgorithm(int[] key)
         {
