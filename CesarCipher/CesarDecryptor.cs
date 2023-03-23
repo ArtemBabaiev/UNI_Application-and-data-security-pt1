@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CesarCipher
 {
-    internal static class CesarDecryptor
+    public static class CesarDecryptor
     {
         private static string ALPHABET = FileManager.ReadAplhabet();
 
