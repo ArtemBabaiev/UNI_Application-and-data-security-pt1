@@ -19,11 +19,11 @@ namespace AffineCipher
             {
                 throw new Exception("Key values bigger than alphabet capacity");
             }
-            if (!MathFunctions.IsCoprime(a, m))
+            if (!MathHelper.IsCoprime(a, m))
             {
                 throw new Exception("a key is not coprime with m");
             }
-            int inverseA = MathFunctions.ModInverse(a, m);
+            int inverseA = MathHelper.ModInverse(a, m);
 
             StringBuilder source = new();
             foreach (var character in encrypted)

@@ -80,11 +80,11 @@ namespace RSA
             {
                 throw new ArgumentException($"E({E}) out of Range ({1}; {phi})");
             }
-            if (!MathFunctions.IsCoprime(E, phi))
+            if (!MathHelper.IsCoprime(E, phi))
             {
                 throw new ArgumentException($"E({E}) and phi({phi}) are not coprime");
             }
-            if (MathFunctions.ModInverse(E, phi) != D)
+            if (MathHelper.ModInverse(E, phi) != D)
             {
                 throw new ArgumentException($"E({E}) and D({D}) are not modular multiplicative inversable");
             }
