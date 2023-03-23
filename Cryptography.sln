@@ -37,6 +37,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab8", "Lab8", "{44B71EE4-9
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamCipher-BBS", "StreamCipher-BBS\StreamCipher-BBS.csproj", "{397A0713-6209-4011-BA1D-70DD5D5B6CBF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab9", "Lab9", "{31675540-5423-4DC4-AB9A-3A2259D48DED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleSubstitutionCipher", "SimpleSubstitutionCipher\SimpleSubstitutionCipher.csproj", "{67E5E6C5-13D7-4908-ADAC-1825D44D541C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -79,6 +83,10 @@ Global
 		{397A0713-6209-4011-BA1D-70DD5D5B6CBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{397A0713-6209-4011-BA1D-70DD5D5B6CBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{397A0713-6209-4011-BA1D-70DD5D5B6CBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67E5E6C5-13D7-4908-ADAC-1825D44D541C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67E5E6C5-13D7-4908-ADAC-1825D44D541C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67E5E6C5-13D7-4908-ADAC-1825D44D541C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67E5E6C5-13D7-4908-ADAC-1825D44D541C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -92,6 +100,7 @@ Global
 		{6CD0DC2A-80E2-4FDC-BA81-30D522766898} = {E8A1251E-052C-4B7C-8FB5-29B198E93765}
 		{7AEE9989-F95B-46E9-BD61-995ABCD9A6B0} = {5ED297CA-4CC4-438E-96A5-2AA6F013B58E}
 		{397A0713-6209-4011-BA1D-70DD5D5B6CBF} = {44B71EE4-9EE6-4279-9647-32D28E54D37F}
+		{67E5E6C5-13D7-4908-ADAC-1825D44D541C} = {31675540-5423-4DC4-AB9A-3A2259D48DED}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {20310889-253B-4A7F-A13F-60157D33BF55}
