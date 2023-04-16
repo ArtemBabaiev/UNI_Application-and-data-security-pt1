@@ -66,7 +66,7 @@ namespace Lab10.Client
             string username = Console.ReadLine();
             Console.Write("Password: ");
             string password = Console.ReadLine();
-            byte[] bytes = Encoding.ASCII.GetBytes(password);
+            byte[] bytes = Encoding.ASCII.GetBytes(username + password);
             Console.WriteLine("Original bytes:");
             PrintByteArray(bytes);
             var hashBytes = mySHA256.ComputeHash(bytes);
